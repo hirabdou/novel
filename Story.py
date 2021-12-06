@@ -1,6 +1,7 @@
 print("Welcome to Abandoned House! This is a choice-based story about how four teenagers go in an abandoned house on Halloween, and mysterious things occur.")
 print("Directions:\nTo pick a choice, enter the number that is in parentheses next to the choice. There will be two different choices for ALL inputs. Example: If the story tells you 'Left (1) or Right (2)?', you would enter '1' to go left, and vice versa.\n\n")
 alive = ['Tyler', 'Sam', 'Reese', 'John']
+Sam_key=0
 
 while True:    
     answer = input('After a long night, Tyler, Reese, Samantha and John finally get enough candy to go back home. During their walk, they noticed an abandoned house. "We should go in, see if there is anything interesting to take." John declares. "That is too creepy, what if someone is in there waiting for someone like us to go in?" Samantha warned. The group is indecisive on whether they should go to the house or not.\nPress (1) to go to the abandoned house..\n')
