@@ -2,5 +2,6 @@
   answer = input('\n\nReese walks over by the pumpkin...(Smash the pumpkin(1) OR Put a candy into the pumpkin(2)) What will you do?\n') 
   if answer == "1":
     alive.remove("Reese")
-    ('\n\nReese smashes his hand hard into the pumpkin. Suddenly, a ghost emerges from the crumbling pumpkin. It is holding a huge scythe in its hand and slashes hard at Reese's head...\n')   
+    print('\n\nReese smashes his hand hard into the pumpkin. Suddenly, a ghost emerges from the crumbling pumpkin. It is holding a huge scythe in its hand and slashes hard at Reese's head...\n')   
   if answer == "2":
+    print('\n\nReese takes out a cute little candy from her pocket and slowly puts it into the pumpkin. Just then, a feeling of numbness goes through her body, forcing her slowly lie down on the bed. She is smiling and the dream is begin...\n')
