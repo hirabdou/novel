@@ -1,1 +1,7 @@
-Reese walks uncontrollably into the bedroom. It is a small, old bedroom. The twin-size bed covered in dust makes Reese realize that this might be the children's room. At this moment, the pumpkin on the table catch Reese attention. Compared with the whole room, this pumpkin carving is very new, without a trace of dust. But its creepy smile gives Reeze a sense of fright.
+  print('\n\nReese...\n\nReese walks uncontrollably into the bedroom. It is a small, old bedroom. The twin-size bed covered in dust makes Reese realize that this might be the children's room. At this moment, the pumpkin on the table catch Reese attention. Compared with the whole room, this pumpkin carving is very new, without a trace of dust. But its creepy smile gives Reeze a sense of fright.\n')
+  answer = input('\n\nReese walks over by the pumpkin...(Smash the pumpkin(1) OR Put a candy into the pumpkin(2)) What will you do?\n') 
+  if answer == "1":
+    alive.remove("Reese")
+    ("n/John screams and runs for his life too terrified to eat with the ghost.\n\n As he's running, John quickly realizes he made a big  mistake./n/n The old ghost flies above him and snatches him up, quikly killing him /n/n
+  if answer == "2":
+    ('\n\n   
