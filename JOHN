@@ -1,0 +1,8 @@
+JOHN
+answer = input('\n\nJohn...\n\nAs John slowly walks into the dining room... On the dining table is a feast of everything you could ever dream of. Across the table sits a ghost like figure of an old man...John is faced with two choices " run and stay hungry for the remainder of the game (1) or sit and feast with me (2)" Suddenly,the ghost like figure reaches out encouraging John to sit down and feast with him. What will you do?\n')
+  if answer == "1":
+    alive.remove("John")
+    ("n/John screams and runs for his life too terrified to eat with the ghost.\n\n As he's running, John quickly realizes he made a big  mistake./n/n The old ghost flies above him and snatches him up, quikly killing him /n/n
+  if answer == "2":
+    ("n/John decides to sit and feast with the old man. \n\n He tastes evrything on the table while trying not to look at the old man. \n\n Once he's done eating he chugs some water and anxiously begins to get up from the table.\n\n")
+    
