@@ -2,6 +2,5 @@
   answer = input('\n\nReese walks over by the pumpkin...(Smash the pumpkin(1) OR Put a candy into the pumpkin(2)) What will you do?\n') 
   if answer == "1":
     alive.remove("Reese")
-    ("n/John screams and runs for his life too terrified to eat with the ghost.\n\n As he's running, John quickly realizes he made a big  mistake./n/n The old ghost flies above him and snatches him up, quikly killing him /n/n
+    ('\n\nReese smashes his hand hard into the pumpkin. Suddenly, a ghost emerges from the crumbling pumpkin. It is holding a huge scythe in its hand and slashes hard at Reese's head...\n')   
   if answer == "2":
-    ('\n\n   
