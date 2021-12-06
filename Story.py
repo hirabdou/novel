@@ -17,3 +17,58 @@ while True:
                        
 
     break
+
+        #Second character
+        answer=input('\n\nSam...\n\n Sam walks towards the basement in a distracted manner. Since the basement was very dark, Sam could only rely on the faint light of his cell phone to walk down the stairs." clomp" " clomp " " clomp..." When he reached the bottom of the stairs, a light illuminated his eyes, and he took a closer look, "Hey! I found a treasure box!!!" He shouted.\nHe cautiously walked towards the treasure box. It was a box made of gold. Strangely, in this dark basement, this golden box glowed with an extremely shining light. What will you do? (Will Sam ignore the box and continue explore (1) OR Open the golden box (2)?)')
+        if answer == '1':
+            print('\n\nSam is keep walking foward...')
+        if answer =='2':
+            answer=input('\n\nSam opens the box and there is a golden key inside. Sam picks up the key, and all of a sudden, dozens of small spiders crawl out from the box. What will you do? (Will you stomp them to death (1) OR Run away (2)?')
+            if answer =='1':
+                alive.remove("Sam")
+                print('\n\nMore little spiders crawl out from under the box and devour you. You are death!')
+            if answer == '2':
+                        Sam_key=Sam_key+4
+                        print('\n\nSam turns around and run frantically toward the stairs. At this point, Sam finds the basement door is locked, Sam kicks the door hard, but unfortunately the door is too strong. Just when Sam is desperate, he finds that the basement becomes very quiet. So, Sam walked down the stairs in fear. Sam finds that the boxes and spiders have disappeared, so Sam turn on his cell phone flashlight and keep moving forward. ')
+
+        #Part two
+        answer=input('\n\n\nSam looks around the basement. With the light of his phone, Sam notices a huge cross being hung on the wall. There is a black coffin under the cross. Sam walks over to it. What will you do? (Open the coffin (1) OR Ignore it?')
+        if answer =='1':
+             answer = input('\n\nSam find a human skeleton. The human skeleton is holding a green gemstone tightly in its hand. What will you do? (Take the gemstone away (1) OR Ignore the gemstone and continue your adventure (2)?)')
+             if answer == '1':
+                 print('\n\nSam forcibly breaks the hand of skeleton and picks up the gem. At that moment, Sam feels a strong force, which makes Sam faint. After waking up Sam finds himself outside the house, but the jewel in his hand has disappeared. You have escaped!')
+                 break
+             if answer == '2':
+                 print('\n\nSam is keep walking foward...')
+        if answer =='2':
+             print('\n\nSam is keep walking foward...')
+
+        #Part Three
+        answer=input('\n\n\nSam continue his adventure. At this point, Sam find a dusty bookshelf. There are many books on the shelf. What will you do? (Pick up a random book from the bookshelf (1) OR continue his adventure (2)?)')
+        if answer =='1':
+            print('\n\nSam pick up a book...')
+        if answer =='2':
+            answer=input('\n\n Select your action: Open Golden box(1) OR Coffin(2) OR Bookshelf(3)')
+            if answer =='1':
+                alive.remove("Sam")
+                print('\n\n Sam walks back to the Golden box. After a few seconds hestitate, he opens the box. Countless spiders crawl out from under the box and devour Sam. You are death!')
+            if answer == '2':
+                alive.remove("Sam")
+                print('\n\n Sam opens the coffin, and he finds a skeleton inside. He looks at this skeleton carefully. Suddenly, the skeleton clutch Sam and pulls him into the coffin. And the coffin magically closed itself.')
+            if answer == '3':
+                print('\n\nSam pick up a book...')
+
+          #Part Four      
+        answer = input('\n\n\n Suddenly, a violent vibration comes from under his feet. The floor Sam were stepping on with both feet suddenly opened and Sam fell. Sam get up from the ground. Fortunately, Sam are not injured. Sam look around and see a ritual platform is placed in the middle of the room. There is a large chalice on the ritual platform, but other than that there is nothing else in the room. Sam walk over to the ritual platform, and Sam notice that there a key-shaped groove carved out of the base of the chalice. What will you do? (Put the key into the groove (1) OR Take up the chalice (2)?)')
+        if answer == '1':
+              if Sam_key==4:
+                  print('The stone walls on the left opens up an exit, which Sam find is a stone stairway. Sam walk over to try to find out the end of the passage and see a beautiful starry sky. Sam know this is the way to outside, so Sam walk up the stair…')
+                  break
+              else:  
+                  print('\n\n Sorry, you don''t have this item, please select another option.')
+                  answer = input( '\n\n What will you do? (Take up the chalice (2)?)')
+                  if answer == '2':
+                      alive.remove("Sam")
+                      print('Countless small spiders crawl up from the ground, Sam run away in fear, however, Sam find that he have no way to escape, and finally Sam are swallowed by the spider swarm.')
+
+    
